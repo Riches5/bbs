@@ -1,0 +1,15 @@
+修改数据库配置：
+src\main\resources\druid.properties
+
+先将 bbs-master\src\main\webapp\WEB-INF\data\install 中的 structure_tables_mysql.sql 在mysql 可视化工具运行创建各种表
+然后导入数据： 
+打开 src\test\java\forum\Init.java，run
+ 
+ idea 部署 tomcat 
+
+页面显示 url：
+     后台管理:
+    http://localhost:8088/admin/login.htm
+
+   主要内容：
+   http://localhost:8088/index
